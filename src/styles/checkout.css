@@ -53,7 +53,7 @@
   
   .checkout-form button {
     display: block;
-    width: 50%;
+    width: 70%;
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -67,4 +67,5 @@
   .checkout-form button:hover {
     background-color: #007fff;
   }
+  
   

@@ -26,7 +26,7 @@ const Login = () => {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                         />
-                        <i className="far fa-envelope"></i>
+                        
                     </div>
                     <div className="input-group">
                         <input
@@ -36,7 +36,7 @@ const Login = () => {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                         />
-                        <i className="fas fa-lock" onClick="show()"></i>
+                       
                     </div>
                     <button type="submit" className="submit-btn">
                         Sign in

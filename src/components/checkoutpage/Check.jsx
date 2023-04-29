@@ -31,7 +31,10 @@ const Checkout = () => {
 
   return (
     <div className="checkout-container">
-      <h1>Checkout<span><IoBagCheckOutline/></span></h1>
+      
+<h1>Checkout</h1>
+      
+      
       <div className="checkout-header">
       
         

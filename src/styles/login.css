@@ -31,14 +31,7 @@
     margin-bottom: 20px;
   }
   
-  .input-group i {
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    transform: translateY(-50%);
-    font-size: 20px;
-    color: #aaa;
-  }
+  
   
   .input-group input {
     padding: 10px;
