@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { RiFindReplaceLine } from "react-icons/ri";
 import logo from '../../assets/logo.jpeg'
-
+//about
 const AboutUs = () => {
     return (
         <section className="about">
@@ -28,6 +28,7 @@ const AboutUs = () => {
                         <RiFindReplaceLine />
                     </Link>
                 </article>
+                
 
                 <div>
                     <h2>Founders</h2>

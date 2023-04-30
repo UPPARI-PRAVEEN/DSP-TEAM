@@ -27,17 +27,12 @@ const Checkout = () => {
   const handleSubmit = e => {
     e.preventDefault();
     // Process form data and complete order
+    alert('Thank you for your order!');
   };
 
   return (
     <div className="checkout-container">
-      
-<h1>Checkout</h1>
-      
-      
-      <div className="checkout-header">
-      
-        
+      <h1>Checkout</h1>
       
       <form className="checkout-form" onSubmit={handleSubmit}>
         <div className="form-group">
@@ -78,7 +73,6 @@ const Checkout = () => {
         </div>
         <button type="submit">Complete Order</button>
       </form>
-      </div>
     </div>
   );
 };

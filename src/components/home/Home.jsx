@@ -1,14 +1,19 @@
 import React from 'react';
-import '../../styles/home.css'
-import profile from '../../assets/p21.jpeg'
-import profile1 from '../../assets/p19.jpeg'
-import profile2 from '../../assets/p20.jpeg'
-import profile3 from '../../assets/p2.jpeg'
-import product10 from '../../assets/p12.jpeg'
+import '../../styles/home.css';
+
+//different types of product
+import profile from '../../assets/p7.jpeg'
+import profile1 from '../../assets/p4.jpeg'
+import profile2 from '../../assets/p5.jpeg'
+
+import product10 from '../../assets/p9.jpeg'
 import product11 from '../../assets/p13.jpeg'
-import product12 from '../../assets/p13.jpeg'
+import product12 from '../../assets/p18.jpeg'
 import product13 from '../../assets/p14.jpeg'
-import product14 from '../../assets/p15.jpeg'
+import product14 from '../../assets/p19.jpeg'
+import product15 from '../../assets/p12.jpeg'
+
+//icons services provide
 import icon1 from '../../assets/icon2.png';
 import icon2 from '../../assets/icon2.png';
 import icon3 from '../../assets/icon2.png';
@@ -44,49 +49,49 @@ const Home = () => {
                         <a className="cta-button" href="#customize">Customize Now</a>
                     </div>
                     <div className="product-item">
-                        <img src={profile2} alt="T-Shirt 2" />
+                        <img src={profile1} alt="T-Shirt 2" />
                         <h3>T-Shirt 2</h3>
-                        <p>Soft and comfortable t-shirt with customizable designs.</p>
+                        <p>Soft and comfortable t-shirt with customizable.</p>
                         <a className="cta-button" href="#customize">Customize Now</a>
                     </div>
                     <div className="product-item">
-                        <img src={profile1} alt="T-Shirt 3" />
+                        <img src={profile2} alt="T-Shirt 3" />
                         <h3>T-Shirt 3</h3>
                         <p>Classic t-shirt with various size options.</p>
                         <a className="cta-button" href="#customize">Customize Now</a>
                     </div>
                     <div className="product-item">
-                        <img src={profile} alt="T-Shirt 1" />
+                        <img src={product10} alt="T-Shirt 1" />
                         <h3>T-Shirt 1</h3>
                         <p>High-quality t-shirt with various color options.</p>
                         <a className="cta-button" href="#customize">Customize Now</a>
                     </div>
                     <div className="product-item">
-                        <img src={profile2} alt="T-Shirt 2" />
+                        <img src={product12} alt="T-Shirt 2" />
                         <h3>T-Shirt 2</h3>
-                        <p>Soft and comfortable t-shirt with customizable designs.</p>
+                        <p>Soft and comfortable t-shirt with customizable.</p>
                         <a className="cta-button" href="#customize">Customize Now</a>
                     </div>
                     <div className="product-item">
-                        <img src={profile1} alt="T-Shirt 3" />
+                        <img src={product14} alt="T-Shirt 3" />
                         <h3>T-Shirt 3</h3>
                         <p>Classic t-shirt with various size options.</p>
                         <a className="cta-button" href="#customize">Customize Now</a>
                     </div>
                     <div className="product-item">
-                        <img src={product12} alt="T-Shirt 1" />
+                        <img src={product15} alt="T-Shirt 1" />
                         <h3>T-Shirt 1</h3>
                         <p>High-quality t-shirt with various color options.</p>
                         <a className="cta-button" href="#customize">Customize Now</a>
                     </div>
                     <div className="product-item">
-                        <img src={product14} alt="T-Shirt 2" />
+                        <img src={product11} alt="T-Shirt 2" />
                         <h3>T-Shirt 2</h3>
-                        <p>Soft and comfortable t-shirt with customizable designs.</p>
+                        <p>Soft and comfortable t-shirt with customizable.</p>
                         <a className="cta-button" href="#customize">Customize Now</a>
                     </div>
                     <div className="product-item">
-                        <img src={product10} alt="T-Shirt 3" />
+                        <img src={product13} alt="T-Shirt 3" />
                         <h3>T-Shirt 3</h3>
                         <p>Classic t-shirt with various size options.</p>
                         <a className="cta-button" href="#customize">Customize Now</a>

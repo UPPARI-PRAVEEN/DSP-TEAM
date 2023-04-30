@@ -10,7 +10,7 @@ import "./styles/last.scss";
 import "./styles/product.css";
 import "./styles/About.scss";
 import ProductList from "./components/product/ProductList";
-import ProductCard from "./components/product/Productcard";
+
 import Footer from "./components/footer/Footer";
 
 import Login from "./components/login/Login";
@@ -28,7 +28,7 @@ function App() {
         <Route path="/checkout" element={<Check />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/products" element={<ProductList />} />
-        <Route path="/products/:id" element={<ProductCard />} />
+        
         <Route path="/login" element={<Login/>} />
         
        
